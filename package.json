@@ -1,0 +1,21 @@
+{
+  "name": "lumen-kart-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LUMEN KART - Express + Socket.IO online race server (DANGO BATTLE server spec: private rooms, random match, reconnect, rematch)",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node test/smoke.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}
